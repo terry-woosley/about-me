@@ -22,5 +22,5 @@ Once you have completed putting together a web page with your preffered language
 
 ## Contributors
 Terry Woosley  
-IDM: Computer Science
+IDM: Computer Science  
 ![fable-guild-seal](https://files.gamebanana.com/img/ico/sprays/fable_3.png)
