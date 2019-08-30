@@ -1,1 +1,5 @@
-This will be a website about myself
+I am a Junior Interactive Digital Media: Computer Science student with entirely too long before I graduate.
+
+I do not really have a hometown per se, as I have jumped all around the Kansas City, MO metropolitan area. I graduated from Belton High School and studied some CS related courses during my time there (Project Lead the Way and a web development course). I have yet to attend any internship opportunities, but am actively searching for something that piques my interest. My  off time usually consists of video games, music, and when the funds are available, travelling.
+
+As for my future plans, I hope to break into the Game Development field with all of it's various crunches and complexities. However, due to the current state of AAA development and the world of conglomerate publishers I hope to stay independent so I can focus on the things that make games enjoyable versus profits.
