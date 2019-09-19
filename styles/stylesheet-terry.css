@@ -1,0 +1,17 @@
+p, h1, body, section, article, aside {
+    border: 1px solid black;
+}
+
+html {
+    background-color: black
+}
+
+article, h1 {
+    width: 300px;
+    background-color: lightblue;
+}
+
+aside {
+    width: 300px;
+    background-color: lightgreen;
+}
