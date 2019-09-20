@@ -1,7 +1,24 @@
 body {
-    padding-top: 5rem;
-  }
-  .starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
-  }
+  padding-top: 5rem;
+}
+section {
+  background-color: lightblue;
+  border: 2px solid black;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.img-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#send-button {
+  border: 2px solid black;
+  background-color: lightblue;
+}
+#aside {
+  border: 2px solid black;
+  background-color: lightblue;
+}
