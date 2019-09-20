@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
 
-    <title>Web App</title>
+    <title>Area Calculator</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,23 +21,42 @@
 
   <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="index.html"><img class="img-circle" src="assets/kitten.jpg">Terry Woosley</a>
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="contacts.html">Contacts</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="web-app.html">Web App</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="index.html"><img class="img-circle" src="assets/kitten.jpg">Terry Woosley</a>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="web-app.html">Area Calculator</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  
+    <header>
+      <h1>Rectangular Area Calculator</h1>
+    </header>
 
-  
+    <form>
+      <fieldset class="form-group">
+        <label for="height">Height</label>
+        <input class="form-control" id="height" type="number" placeholder="Enter a height">
+      </fieldset>
+
+      <fieldset class="form-group">
+        <label for="width">Width</label>
+        <input class="form-control" id="width" type="number" placeholder="Enter a width">
+      </fieldset>
+
+      <fieldset class="form-group">
+        <label for="area">Area</label>
+        <input class="form-control" id="area" type="number" disabled>
+      </fieldset>
+    </form>
+
+    <button type="button" class="button rounded" id="send-button">Calculate</button>
 
   </body>
 </html>
