@@ -1,5 +1,6 @@
 body {
-  padding-top: 5rem;
+  padding: 2em;
+  margin-top: 4em;
 }
 section {
   background-color: lightblue;
@@ -21,4 +22,8 @@ section {
 #aside {
   border: 2px solid black;
   background-color: lightblue;
+  margin-bottom: 2em;
+}
+#video {
+  margin-top: 2em;
 }
