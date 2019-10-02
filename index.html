@@ -8,26 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
-    <link rel="icon" href="./favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./images/favicon_io/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon_io/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./images/favicon_io/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./manifest.json" />
+
+    <!-- Web App Bits-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script>
+    // CODELAB: Register service worker.
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+            .then((reg) => {
+              console.log('Service worker registered.', reg);
+            });
+      });
+    }
+    </script>
 
     <title>Terry Woosley</title>
 
