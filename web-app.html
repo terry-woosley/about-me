@@ -39,24 +39,24 @@
       <h1>Rectangular Area Calculator</h1>
     </header>
 
-    <form>
+    <form class="web-app">
       <fieldset class="form-group">
-        <label for="height">Height</label>
-        <input class="form-control" id="height" type="number" placeholder="Enter a height">
+        <label for="numOfDice">How many dice would you like to roll?</label>
+        <input class="form-control" id="numOfDice" type="number" placeholder="Enter number of dice">
       </fieldset>
 
       <fieldset class="form-group">
-        <label for="width">Width</label>
-        <input class="form-control" id="width" type="number" placeholder="Enter a width">
+        <label for="numOfFaces">Width</label>
+        <input class="form-control" id="numOfFaces" type="number" placeholder="Enter number of sides">
       </fieldset>
 
       <fieldset class="form-group">
-        <label for="area">Area</label>
-        <input class="form-control" id="area" type="number" disabled>
+        <h2>{{setOfResults}}</h2>
+        <h2>{{resultsAdded}}</h2>
       </fieldset>
     </form>
 
-    <button type="button" class="button rounded" id="send-button">Calculate</button>
+    <button type="button" class="button rounded" id="roll-button">Roll</button>
 
   </body>
 </html>

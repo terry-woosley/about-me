@@ -15,7 +15,7 @@ section {
   height: 50px;
   border-radius: 50%;
 }
-#send-button {
+#roll-button {
   border: 2px solid black;
   background-color: lightblue;
 }
