@@ -49,17 +49,3 @@ function rollResults(){
 }
 
 document.getElementById("rollButton").addEventListener("click", rollResults);
-
-
-/*
-const webbApp = new Vue({
-    el: "#webb-app",
-    data: {
-        numOfDice: 1,
-        numOfFaces: 6
-    },
-    computed: {
-        
-    }
-});
-*/

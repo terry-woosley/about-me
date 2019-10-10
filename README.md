@@ -1,11 +1,11 @@
-# about-me
+# About Me Website
 
-## Repository
+## Repository/Published Page
 - [Repository](https://github.com/terry-woosley/about-me)
 - [Published Page](https://terry-woosley.github.io/about-me/)
 
 ## About
-This repo is a site about myself to practice the use of Markdown and basic git commands.
+This repo is a site about myself to practice basic web development concepts. This repo will evolve over time as I continue through my university course.
 
 ## Recommended Tools
 Publishing web pages with GitHub Pages is very easy! All you need is:
