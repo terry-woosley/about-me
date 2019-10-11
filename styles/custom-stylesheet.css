@@ -27,3 +27,13 @@ section {
 #video {
   margin-top: 2em;
 }
+#dice-roller{
+  border: 2px solid black;
+  background-color: lightgreen;
+  margin: 2em;
+}
+#get-planet{
+  border: 2px solid black;
+  background-color: limegreen;
+  margin: 2em;
+}

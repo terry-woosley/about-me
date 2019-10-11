@@ -39,26 +39,46 @@
       <h1>Dice Roller</h1>
     </header>
 
-    <form class="web-app">
-      <fieldset class="form-group">
-        <label for="numOfFaces">How many faces should each die have?</label>
-        <input class="form-control" id="numOfFaces" type="number" placeholder="Enter number of faces">
-      </fieldset>
+    <article class="container-fluid">
+      <div class="row">
 
-      <fieldset class="form-group">
-        <label for="numOfDice">How many dice would you like to roll?</label>
-        <input class="form-control" id="numOfDice" type="number" placeholder="Enter number of dice">
-      </fieldset>
+        <!-- dice roller widget -->
+        <div class="col-md-4" id="dice-roller">
+          <form class="web-app">
+            <fieldset class="form-group">
+              <label for="numOfFaces">How many faces should each die have?</label>
+              <input class="form-control" id="numOfFaces" type="number" placeholder="Enter number of faces">
+            </fieldset>
 
-      <label>Results of each roll: <span id="resultString"></span></label>
-      <br>
-      <label>Results of all rolls added: <span id="resultsAdded"></span></label>
-    </form>
+            <fieldset class="form-group">
+              <label for="numOfDice">How many dice would you like to roll?</label>
+              <input class="form-control" id="numOfDice" type="number" placeholder="Enter number of dice">
+            </fieldset>
 
-    <button type="button" class="button rounded" id="rollButton">Roll</button>
+            <label>Results of each roll: <span id="resultString"></span></label>
+            <br>
+            <label>Results of all rolls added: <span id="resultsAdded"></span></label>
+          </form>
+
+          <button type="button" class="btn btn-primary mb-2" id="rollButton">Roll</button>
+        </div>
+
+        <!-- Get planet widget -->
+        <div class="col-md-4" id="get-planet">
+          <h3>Star Wars Planet Info</h3>
+          <br>
+          <p>Planet Name: <p id="planetName"></p></p>
+          <br>
+          <p>Planet Climate: <p id="planetClimate"></p></p>
+          <button id="getPlanetButton" class="btn btn-primary mb-2">Get Random Planet</button>
+        </div>
+
+      </div>
+    </article>
 
     <!-- Custom Scripts -->
     <script src="dice-roller.js"></script>
+    <script src="get-planet.js"></script>
 
   </body>
 
